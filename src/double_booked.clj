@@ -29,6 +29,6 @@
       (let [overlapping (filter (partial overlaps? x) xs)
             pairs (map (partial vector x) overlapping)]
         (recur (first xs)
-                (rest xs)
-                (concat acc pairs)))
+               (rest xs)
+               (concat acc pairs)))
       (into [] acc))))
