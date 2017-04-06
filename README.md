@@ -8,3 +8,8 @@ For example, if event a has a start time of 8:00 and an end time of 8:30, and ev
 
 ## Solution
 To exercise the test suite, run `lein test`
+
+
+Copyright © 2017 Jason Stewart
+
+Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
