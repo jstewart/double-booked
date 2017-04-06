@@ -1,7 +1,7 @@
 (ns double-booked)
 
 (defn overlaps?
-  "determines whether 2 events (maps f and g) overlap or not"
+  "determines whether 2 event maps overlap or not"
   [{s1 :start e1 :end} {s2 :start e2 :end}]
   (let [st-overlap (compare s1 e2)
         ed-overlap (compare e1 s2)]
